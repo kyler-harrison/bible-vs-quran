@@ -74,7 +74,7 @@ function end() {
 			resultStr = "WHAT DID YOU DO?";
 	}
 
-	statusBox.innerHTML = correctCount + "/10 correct" + "<br><br>" + resultStr;
+	statusBox.innerHTML = correctCount + "/10 correct" + "<br><br>" + resultStr + "<br><br><a href='index.html'>Restart</a>";
 	numAnswered = 0;
 	correctCount = 0;
 }
