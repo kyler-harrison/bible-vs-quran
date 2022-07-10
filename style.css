@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	font-family: "Open-Sans", sans-serif;
+	background-color: #f2f2f2;
+}
+
+.main-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	overflow: hidden;
+	margin-bottom: 2rem;
+}
+
+.main-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	overflow: hidden;
+}
+
+.img-container {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right: 2%;
+	margin-left: 2%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.q-img {
+	width: 15rem;
+	height: 15rem;
+}
+
+.b-img {
+	width: 15rem;
+	height: 15rem;
+}
+
+.quote-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-right: 2%;
+	margin-left: 2%;
+	height: 7rem;
+	max-width: 40rem;
+}
+
+.quote {
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+.btn-container {
+	justify-content: center;
+	flex-direction: row;
+	display: flex;
+	width: 20rem;
+	height: 8rem;
+}
+
+.btn {
+	height: 5rem;
+	width: 5rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	background-color: #cccccc;
+	border: none;
+	border-radius: 0.5rem;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.btn:hover {
+	background-color: blue;
+}
+
+.status-cont {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
