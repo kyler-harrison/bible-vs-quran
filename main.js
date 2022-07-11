@@ -9,7 +9,7 @@ function randoInt(min, max) {
 }
 
 function genQuote() {
-	var maxNum = 5001;
+	var maxNum = 5000;
 	var clsInt = randoInt(0, 2);
 	var quoteIdx = randoInt(0, maxNum);
 
